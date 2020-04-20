@@ -46,6 +46,19 @@ header {
 			li {
 				display: inline;
 				padding-left: 20px;
+				color: #23398E;
+
+				a {
+
+					text-decoration: none;
+					color: #233693;
+				    padding-bottom: 26px;
+
+					&:hover {
+					    border-bottom: solid 3px #ff0081;
+					    
+					}
+				}
 			}
 		}
 	}

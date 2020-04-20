@@ -35,7 +35,14 @@ header {
           display: none; } }
       header .menu ul li {
         display: inline;
-        padding-left: 20px; }
+        padding-left: 20px;
+        color: #23398E; }
+        header .menu ul li a {
+          text-decoration: none;
+          color: #233693;
+          padding-bottom: 26px; }
+          header .menu ul li a:hover {
+            border-bottom: solid 3px #ff0081; }
 
 .banner-home {
   background: #ffffff url("../images/bg-marcana.png") no-repeat center center fixed;
