@@ -34,11 +34,10 @@ header {
           display: none; } }
       header .menu ul li {
         display: inline;
-        padding-left: 20px;
-        color: #23398E; }
+        padding-left: 20px; }
         header .menu ul li a {
           text-decoration: none;
-          color: #233693;
+          color: #242424;
           padding-bottom: 26px; }
           header .menu ul li a:hover {
             border-bottom: solid 3px #4C63F7; }
