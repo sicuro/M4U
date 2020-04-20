@@ -49,7 +49,7 @@ header {
       .banner-home h1 {
         font-size: 36px;
         text-align: left;
-        margin-top: 140px; } }
+        margin-top: 50%; } }
   .banner-home .play {
     color: #4C63F7;
     font-size: 18px; }
