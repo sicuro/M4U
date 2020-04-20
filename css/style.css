@@ -118,7 +118,7 @@ header {
   box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16); }
   @media (max-width: 991px) {
     .pilares .eventos-widget {
-      margin-top: 70px; } }
+      margin-top: 100px; } }
   .pilares .eventos-widget h2 {
     color: #ffffff; }
   .pilares .eventos-widget .proximos-eventos {
@@ -126,8 +126,14 @@ header {
     font-weight: bold;
     line-height: 36px;
     padding: 20px 20px 20px 40px; }
+    @media (max-width: 991px) {
+      .pilares .eventos-widget .proximos-eventos {
+        padding: 20px 15px 15px 15px; } }
   .pilares .eventos-widget .horario-eventos {
     padding: 20px 20px 20px 40px; }
+    @media (max-width: 991px) {
+      .pilares .eventos-widget .horario-eventos {
+        padding: 20px 15px 15px 15px; } }
     .pilares .eventos-widget .horario-eventos:after {
       content: "";
       width: 40px;
@@ -142,7 +148,7 @@ header {
           content: "";
           width: 40px;
           height: 87px;
-          left: 45px;
+          left: 25px;
           z-index: 1;
           margin-top: 2px;
           background: url(../images/bg-eventos.svg) repeat center;
@@ -188,6 +194,9 @@ header {
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
     background: #00BFC9 url("../images/bg-eventos-1.png") center; }
+    @media (max-width: 991px) {
+      .pilares .eventos-widget .mais-eventos {
+        padding: 20px 15px 15px 15px; } }
     .pilares .eventos-widget .mais-eventos h2 {
       font-size: 24px; }
     .pilares .eventos-widget .mais-eventos .ver-todos-eventos {
