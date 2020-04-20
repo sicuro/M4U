@@ -54,6 +54,7 @@ header {
 
 					&:hover {
 					    border-bottom: solid 3px #4C63F7;
+					    color: #007bff;
 					}
 				}
 			}
@@ -147,6 +148,89 @@ header {
 	    		margin: 0px;
 	    	}
 	    }
+	}
+
+	.eventos-widget {
+		margin-top: 150px;
+		background:#073398;
+		color: #ffffff;
+		padding:0px;
+		border-radius: 4px;
+    	box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+
+
+		h2 {
+			color: #ffffff;
+		}
+
+		.proximos-eventos {
+			font-size: 32px;
+			font-weight:bold;
+			line-height: 36px;
+			padding:20px 20px 20px 40px;
+		}
+
+		.horario-eventos {
+			padding:20px 20px 20px 40px;
+
+			.cidade-evento {
+				font-size: 12px;
+			}
+			.dia-evento {
+				font-size: 34px;
+				font-weight: bold;
+			}
+			.hora-evento {
+			    font-size: 34px;
+			    font-weight: bold;
+			    margin-top: -10px;
+			    opacity: 0.5;
+			}
+			}
+
+		.info-eventos {
+			padding:20px 20px 20px 40px;
+
+			h2 {
+			font-size: 18px;
+			font-weight: bold;
+			}
+
+			p {
+				font-size: 14px;
+			}
+			button {
+				border: solid 1px #ffffff;
+				padding:20px;
+				background:#073398;
+				color: #ffffff;
+				border-radius:4px;
+				font-size: 14px;
+
+				&:hover {
+					background:#ffffff;
+					color: #073398;
+				}
+			}
+		}
+
+		.mais-eventos {
+			padding:20px 20px 20px 40px;
+			background:#00BFC9;
+
+			h2 {
+				font-size: 24px;
+			}
+
+			.ver-todos-eventos {
+			    margin-top: 100px;
+			    border-bottom: solid 2px #F2ECD9;
+			    padding-bottom: 5px;
+			    font-size: 18px;
+			    font-weight: bold;
+			    float: left;
+			}
+		}
 	}
 
 	.artigos {
