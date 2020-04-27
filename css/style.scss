@@ -657,9 +657,38 @@ footer {
 
 	margin-bottom: 40px;
 
-		h1 {
+		h2 {
 			margin-top: 28px;
 		}
+
+	.fundo-card-01 {
+		background: #4C63F7 url("../images/fundo-card-01.png") no-repeat center center !important;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}	
+	.fundo-card-02 {
+		background: #FF6757 url("../images/fundo-card-02.png") no-repeat center center !important;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}	
+	.fundo-card-03 {
+		background: #944BF5 url("../images/fundo-card-03.png") no-repeat center center !important;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}	
+	.fundo-card-04 {
+		background: #3BB6BD url("../images/fundo-card-04.png") no-repeat center center !important;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
 
 	.card-sobre {
 
@@ -678,6 +707,7 @@ footer {
 
 		h2 {
 			font-size: 16px;
+			margin-top: 0px;
 			color: #ffffff;
 			text-align: left;
 			padding-left:30px;

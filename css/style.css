@@ -475,8 +475,32 @@ footer {
 
 .um-pouco-sobre {
   margin-bottom: 40px; }
-  .um-pouco-sobre h1 {
+  .um-pouco-sobre h2 {
     margin-top: 28px; }
+  .um-pouco-sobre .fundo-card-01 {
+    background: #4C63F7 url("../images/fundo-card-01.png") no-repeat center center !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+  .um-pouco-sobre .fundo-card-02 {
+    background: #FF6757 url("../images/fundo-card-02.png") no-repeat center center !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+  .um-pouco-sobre .fundo-card-03 {
+    background: #944BF5 url("../images/fundo-card-03.png") no-repeat center center !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+  .um-pouco-sobre .fundo-card-04 {
+    background: #3BB6BD url("../images/fundo-card-04.png") no-repeat center center !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
   .um-pouco-sobre .card-sobre {
     background: #4C63F7;
     border-radius: 4px;
@@ -489,6 +513,7 @@ footer {
       padding-bottom: 100px; }
     .um-pouco-sobre .card-sobre h2 {
       font-size: 16px;
+      margin-top: 0px;
       color: #ffffff;
       text-align: left;
       padding-left: 30px;
